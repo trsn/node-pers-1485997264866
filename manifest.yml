@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-pers
+  host: node-pers
+  disk_quota: 1024M
+  services:
+  - node-pers-personality_insights
